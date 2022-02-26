@@ -1,0 +1,13 @@
+# Returns all data in a JSON Object
+#
+# data: 
+# [{ 
+# professionalName: "", nameLink: { firstName: "", url: ""},
+# base64Image: "", firstname: "", primaryDescription: "",
+# workDescription1: "", workDescription1: "", workDescription2: "",
+# linkTitleText: "", linkedInLink: { link: "https://...", text: "LinkedIn"},
+# githubLink: { link: "https://github.com/...", text: "Github"},
+# contactText: "" 
+# }]
+
+GET http://localhost:8080/professional
